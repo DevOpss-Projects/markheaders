@@ -3,7 +3,6 @@
 Mark Headers used to generate the headers in the beginning of the markdown file to it be valid for mark tool to be converted to confluence page.
 
 
----
 ## Usage
 Run mark tool in the folder that has the mark down files as you do usually and it will automatically generate the headers for all the markdown files inside this folder or any sub-folders in the same path.
 
