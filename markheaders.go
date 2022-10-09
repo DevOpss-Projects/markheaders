@@ -8,8 +8,12 @@ import (
 	"path/filepath"
 	"strings"
 )
-// Author : Mohamed Sherby (sn0walk3r)
-// Twitter: @sn0walk3r
+
+// =======================================
+// = Author : Mohamed Sherby (sn0walk3r) =
+// = Twitter: @sn0walk3r                 =
+// =======================================
+
 func Entrypoint() {
 
 	scan(".")
