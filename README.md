@@ -26,12 +26,12 @@ Run mark tool in the folder that has the mark down files as you do usually and i
 
 ---
  Authors ⭐
----
+
 **Mohamed Sherby**
 
 ---
 Contact Me 📭:
----
+
 Twitter 🐦: @sn0walk3r
 
 Github  👨‍🚀: @sn0walk3r
