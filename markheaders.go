@@ -63,7 +63,6 @@ func modifyHeader(path string) (string, error) {
 	if file_err != nil {
 		return "", file_err
 	}
-	// read line by line
 	scanner := bufio.NewScanner(strings.NewReader(content))
 
 	for scanner.Scan() {
