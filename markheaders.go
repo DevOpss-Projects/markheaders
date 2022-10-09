@@ -8,7 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 )
-
+// Author : Mohamed Sherby (sn0walk3r)
+// Twitter: @sn0walk3r
 func Entrypoint() {
 
 	scan(".")
@@ -42,11 +43,9 @@ func generateAttachmentHeaders(content string) (string, error) {
 func generateTitle(path string) string {
 	paths := strings.Split(path, "\\")
 	title := strings.Replace(paths[len(paths)-1], ".md", "", -1)
-
 	return fmt.Sprintf("<!-- Title: %s -->\n", title)
 }
 func generateParentsHeaders(path string) ([]string, error) {
-	//fmt.Println("Generating parents headers for file", path)
 	parents := strings.Split(path, "\\")
 	parents = parents[0 : len(parents)-1]
 	for i := 0; i < len(parents); i++ {
